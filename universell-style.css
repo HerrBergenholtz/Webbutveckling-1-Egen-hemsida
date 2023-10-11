@@ -1,0 +1,18 @@
+* {
+    background-color: #221a0f;
+    text-decoration: none;
+}
+
+header img {
+    max-width: 100px;
+    float: left;
+}
+
+header {
+    display: inline;
+    background-color: antiquewhite;
+}
+
+nav{
+    width: 100%;
+}
