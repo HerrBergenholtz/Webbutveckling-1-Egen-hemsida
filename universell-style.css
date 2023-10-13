@@ -4,15 +4,49 @@
 }
 
 header img {
-    max-width: 100px;
+    max-width: 70px;
     float: left;
 }
 
 header {
-    display: inline;
-    background-color: antiquewhite;
+    height: 100px;
+    width: 100%;
 }
 
-nav{
-    width: 100%;
+nav ul {
+    float: left;
+}
+
+nav ul li {
+    float: left;
+    position: relative;
+    list-style-type: none;
+}
+
+nav ul li a {
+    display: block;
+    color: white;
+    padding: 20px;
+}
+
+.dropdown-meny {
+    display: none;
+    position: absolute;
+    background-color: bisque;
+    border-radius: 0px 0px 8px 8px;
+    width: 100px;
+}
+
+.dropdown-meny li {
+    text-align: center;
+}
+
+.dropdown-meny li a {
+    background-color: bisque;
+    color: #221a0f;
+    
+}
+
+nav ul li:hover .dropdown-meny {
+    display: block;
 }
